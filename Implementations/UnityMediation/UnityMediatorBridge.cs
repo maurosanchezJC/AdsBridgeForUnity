@@ -1,3 +1,8 @@
+// NOTE: This Bridge depends on Unity Mediation package.
+// By the time this script was written, Unity deprecated this package.
+// Use this Bridge only if the intention is to migrate to the pattern and then move out of Unity Mediation.
+// The package can be found on Unity repositories being that is no longer available on Unity Package Manager
+
 #if UNITY_MEDIATION_PACKAGE_IMPLEMENTED
 using System;
 using System.Threading.Tasks;

@@ -1,3 +1,6 @@
+// NOTE: This Bridge depends on the instalation of Ads SDK and IronSource Bridge SDK.
+// These two packags can be implemented through JC Package Manager within all their dependencies.
+
 #if JC_ADSSDK_V1 && JC_IRONSOURCEBRIDGESDK_V1
 using System;
 using System.Collections.Generic;
